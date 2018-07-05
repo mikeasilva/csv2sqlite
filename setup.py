@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 setup(
     name='csv2sqlite',
     version='0.1.0',
-    license='MIT license',
+    license='GPL license',
     description='Python package to load a CSV into a SQLite database.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
@@ -41,7 +41,7 @@ setup(
     zip_safe=False,
     classifiers=[
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: Unix',
