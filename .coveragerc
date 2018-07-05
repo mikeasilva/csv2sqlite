@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/csv2sqlite
+   */site-packages/csv2sqlite
+
+[run]
+branch = true
+source =
+    csv2sqlite
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
