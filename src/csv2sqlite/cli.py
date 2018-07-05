@@ -105,6 +105,7 @@ def convert(filepath_or_fileobj, dbpath, table, headerspath_or_fileobj=None,
     line = 0
     for row in reader:
         line += 1
+        x = y = "Unknown"
         if len(row) == 0:
             continue
         # we need to take out commas from int and floats for sqlite to
