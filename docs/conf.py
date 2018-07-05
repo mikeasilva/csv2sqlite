@@ -31,8 +31,8 @@ version = release = '0.1.0'
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/csv2sqlite/csv2sqlite/issues/%s', '#'),
-    'pr': ('https://github.com/csv2sqlite/csv2sqlite/pull/%s', 'PR #'),
+    'issue': ('https://github.com/mikeasilva/csv2sqlite/issues/%s', '#'),
+    'pr': ('https://github.com/mikeasilva/csv2sqlite/pull/%s', 'PR #'),
 }
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'

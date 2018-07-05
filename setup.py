@@ -26,14 +26,14 @@ setup(
     name='csv2sqlite',
     version='0.1.0',
     license='MIT license',
-    description='Python package to load a CSV into a SQLite database',
+    description='Python package to load a CSV into a SQLite database.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
     author='Michael Silva',
     author_email='mike.a.silva@gmail.com',
-    url='https://github.com/csv2sqlite/csv2sqlite',
+    url='https://github.com/mikeasilva/csv2sqlite',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],

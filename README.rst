@@ -11,30 +11,26 @@ Overview
       - |docs|
     * - tests
       - | |travis|
-        | |codecov|
-    * - package
-      - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
+        |
+..    * - package
+..      - | |version| |wheel| |supported-versions| |supported-implementations|
+..        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/csv2sqlite/badge/?style=flat
     :target: https://readthedocs.org/projects/csv2sqlite
     :alt: Documentation Status
 
-.. |travis| image:: https://travis-ci.org/csv2sqlite/csv2sqlite.svg?branch=master
+.. |travis| image:: https://travis-ci.org/mikeasilva/csv2sqlite.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/csv2sqlite/csv2sqlite
-
-.. |codecov| image:: https://codecov.io/github/csv2sqlite/csv2sqlite/coverage.svg?branch=master
-    :alt: Coverage Status
-    :target: https://codecov.io/github/csv2sqlite/csv2sqlite
+    :target: https://travis-ci.org/mikeasilva/csv2sqlite
 
 .. |version| image:: https://img.shields.io/pypi/v/csv2sqlite.svg
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/csv2sqlite
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/csv2sqlite/csv2sqlite/v0.1.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/mikeasilva/csv2sqlite/v0.1.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/csv2sqlite/csv2sqlite/compare/v0.1.0...master
+    :target: https://github.com/mikeasilva/csv2sqlite/compare/v0.1.0...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/csv2sqlite.svg
     :alt: PyPI Wheel
@@ -51,13 +47,13 @@ Overview
 
 .. end-badges
 
-Python package to load a CSV into a SQLite database
+Python package to load a CSV into a SQLite database.
 
 * Free software: GPL license
 
 .. Installation
    ============
-   
+
    ::
 
     pip install csv2sqlite
