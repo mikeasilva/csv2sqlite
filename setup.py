@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='csv2sqlite',
-    version='0.1.0',
+    version='0.1.1',
     license='GPL',
     description='Python package to load a CSV into a SQLite database.',
     long_description='%s\n%s' % (

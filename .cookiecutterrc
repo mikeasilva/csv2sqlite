@@ -48,6 +48,6 @@ default_context:
     test_matrix_separate_coverage: 'no'
     test_runner:               'pytest'
     travis:                    'yes'
-    version:                   '0.1.0'
+    version:                   '0.1.1'
     website:                   'https://github.com/mikeasilva/csv2sqlite'
     year:                      'now'
