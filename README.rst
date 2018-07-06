@@ -11,10 +11,9 @@ Overview
       - |docs|
     * - tests
       - | |travis|
-        |
-..    * - package
-..      - | |version| |wheel| |supported-versions| |supported-implementations|
-..        | |commits-since|
+    * - package
+      - | |version| |wheel| |supported-versions| |supported-implementations|
+        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/csv2sqlite/badge/?style=flat
     :target: https://readthedocs.org/projects/csv2sqlite
@@ -45,6 +44,7 @@ Overview
 
 Python package to load a CSV into a SQLite database.
 
+* Current version: v0.2.0.
 * Free software: GPL license
 
 .. Installation
