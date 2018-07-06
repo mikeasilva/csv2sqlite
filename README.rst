@@ -13,7 +13,6 @@ Overview
       - | |travis|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/csv2sqlite/badge/?style=flat
     :target: https://readthedocs.org/projects/csv2sqlite
