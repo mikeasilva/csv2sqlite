@@ -8,14 +8,15 @@
 
 from __future__ import print_function
 
-
-import sys
 import argparse
-import csv
-import sqlite3
 import bz2
+import csv
 import gzip
-from six import string_types, text_type
+import sqlite3
+import sys
+
+from six import string_types
+from six import text_type
 
 if sys.version_info[0] > 2:
     read_mode = 'rt'

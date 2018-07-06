@@ -1,11 +1,11 @@
+import bz2
+import gzip
 import os
 import sqlite3
 import tempfile
 import unittest
-import bz2
-import gzip
-from io import BytesIO, StringIO
-
+from io import BytesIO
+from io import StringIO
 from csv2sqlite.cli import convert
 
 DEFAULT_TABLE_NAME = 'data'
