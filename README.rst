@@ -44,7 +44,7 @@ Overview
 
 Python package to load a CSV into a SQLite database.
 
-* Current version: v0.2.0.
+* Current version: v0.3.0.
 * Free software: GPL license
 
 .. Installation
