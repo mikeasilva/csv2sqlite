@@ -6,6 +6,7 @@ import tempfile
 import unittest
 from io import BytesIO
 from io import StringIO
+
 from csv2sqlite.cli import convert
 
 DEFAULT_TABLE_NAME = 'data'
